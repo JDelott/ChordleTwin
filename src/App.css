@@ -1,0 +1,26 @@
+/* Update your global styles */
+body {
+  margin: 0; /* Update margin to 0 */
+  padding: 0; /* Update padding to 0 */
+  background-color: #eaeaef;
+  color: rgb(36, 36, 36);
+  font-family: "Libre Franklin", sans-serif;
+}
+
+/* Keep your existing styles for other elements or classes */
+.centered-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-container {
+  position: relative; /* This is not a valid value for the 'position' property. You might want 'relative' or 'absolute' here. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 0px; /* Adjust the value to control the space */
+}
